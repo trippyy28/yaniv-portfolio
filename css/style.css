@@ -315,6 +315,7 @@ header {
 .service {
   max-width: 500px;
   margin: 0 auto;
+  font-size: 1.3em;
 }
 
 @media (min-width: 800px) {
@@ -411,7 +412,7 @@ header {
   color: var(--clr-light-blue);
   text-align: center;
   padding: 2.5em 0;
-  font-size: var(--fs-h2);
+  font-size: var(--fs-h3);
 }
 
 .footer a {
