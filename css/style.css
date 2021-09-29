@@ -334,6 +334,9 @@ header {
   max-width: 1000px;
   margin: 0 auto;
 }
+.about-me__body {
+  font-size: 1.5em;
+}
 
 .about-me__img {
   box-shadow: var(--bs);
@@ -408,7 +411,7 @@ header {
   color: var(--clr-light-blue);
   text-align: center;
   padding: 2.5em 0;
-  font-size: var(--fs-h3);
+  font-size: var(--fs-h2);
 }
 
 .footer a {
@@ -443,18 +446,4 @@ header {
 
 .social-list__link {
   padding: 0.5em;
-}
-
-/* Individual portfolio item styles */
-
-.portfolio-item-individual {
-  padding: 0 2em 2em;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.portfolio-item-individual p {
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
 }
